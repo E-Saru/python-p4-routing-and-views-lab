@@ -35,7 +35,7 @@ def math(num1, operation, num2):
     else:
         return "Enter operation!"
     
-    return 'operations should be: + - * div %'
+    return result
 
 if __name__ == '__main__':
     app.run(port=5555, debug=True)
